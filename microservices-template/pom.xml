@@ -4,6 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>twitter-to-kafka-service</module>
+        <module>app-config-data</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -27,6 +28,11 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>io.microservices.solution.template</groupId>
+                <artifactId>app-config-data</artifactId>
+                <version>${project.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>

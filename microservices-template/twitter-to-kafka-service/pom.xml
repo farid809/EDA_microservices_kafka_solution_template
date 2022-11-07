@@ -14,6 +14,10 @@
 
     <dependencies>
         <dependency>
+            <groupId>io.microservices.solution.template</groupId>
+            <artifactId>app-config-data</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
@@ -34,11 +38,7 @@
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <scope>provided</scope>
-        </dependency>
+
 
     </dependencies>
 

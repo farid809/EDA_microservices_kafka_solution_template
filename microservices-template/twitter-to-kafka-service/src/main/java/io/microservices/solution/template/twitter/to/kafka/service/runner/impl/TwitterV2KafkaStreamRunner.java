@@ -19,6 +19,7 @@ import java.util.Map;
 
 @Component
 @ConditionalOnExpression("${twitter-to-kafka-service.enable-v2-tweets} && not ${twitter-to-kafka-service.enable-mock-tweets}")
+
 public class TwitterV2KafkaStreamRunner implements StreamRunner {
 
     private static final Logger LOG = LoggerFactory.getLogger(TwitterV2KafkaStreamRunner.class);

@@ -268,3 +268,14 @@ Caused by: org.json.JSONException: JSONObject["data"] not found.
 2022-11-07 11:36:14 [main] INFO  i.m.s.t.t.t.k.s.TwitterToKafkaServiceApplication - Hello Kafka
 2022-11-07 11:36:14 [main] INFO  i.m.s.t.t.t.k.s.r.i.TwitterV2KafkaStreamRunner - Created filter for twitter stream for keywords: [Java, Microservices, Spring, Kafka, Elasticsearch]
 2022-11-07 11:36:17 [main] INFO  i.m.s.t.t.t.k.s.r.i.TwitterV2StreamHelper - Created rules for twitter stream Java
+2022-11-07 12:01:21 [main] INFO  i.m.s.t.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 18.0.1.1 on DESKTOP-T9AVS21 with PID 183952 (D:\Code\EDA_microservices_kafka_solution_template\microservices-template\twitter-to-kafka-service\target\classes started by farid in D:\Code\EDA_microservices_kafka_solution_template\microservices-template)
+2022-11-07 12:01:21 [main] INFO  i.m.s.t.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-07 12:01:21 [main] INFO  i.m.s.t.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.997 seconds (JVM running for 1.866)
+2022-11-07 12:01:21 [main] INFO  i.m.s.t.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-11-07 12:01:21 [main] INFO  i.m.s.t.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-11-07 12:01:21 [main] INFO  i.m.s.t.t.t.k.s.TwitterToKafkaServiceApplication - Hello Kafka
+2022-11-07 12:01:21 [main] INFO  i.m.s.t.t.t.k.s.r.i.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-11-07 12:01:21 [pool-1-thread-1] INFO  i.m.s.t.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text pulvinar dolor lectus sit ultricies purus elit libero Spring adipiscing magna Lorem amet elit amet malesuada
+2022-11-07 12:01:31 [pool-1-thread-1] INFO  i.m.s.t.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text elit Maecenas Lorem massa congue sit Spring Maecenas porttitor massa magna
+2022-11-07 12:01:41 [pool-1-thread-1] INFO  i.m.s.t.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Maecenas posuere consectetuer sit ultricies lectus ultricies Elasticsearch pulvinar pulvinar pulvinar sed lectus
+2022-11-07 12:01:51 [pool-1-thread-1] INFO  i.m.s.t.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Fusce congue lectus Fusce Kafka purus Fusce

@@ -15,4 +15,8 @@ public class TwitterToKafkaServiceConfigData {
     private String twitterV2BaseUrl;
     private String twitterV2RulesBaseUrl;
     private String twitterV2BearerToken;
+    private Long mockSleepMs;
+    private Integer mockMinTweetLength;
+    private Integer mockMaxTweetLength;
+
 }

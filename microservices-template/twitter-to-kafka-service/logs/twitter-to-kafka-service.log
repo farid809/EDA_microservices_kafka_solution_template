@@ -1,0 +1,11 @@
+2022-11-06 22:20:18 [main] INFO  i.m.s.t.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 18.0.1.1 on DESKTOP-T9AVS21 with PID 162624 (D:\Code\EDA_microservices_kafka_solution_template\microservices-template\maven-to-kafka-service\target\classes started by farid in D:\Code\EDA_microservices_kafka_solution_template\microservices-template)
+2022-11-06 22:20:18 [main] INFO  i.m.s.t.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-06 22:20:18 [main] INFO  i.m.s.t.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.922 seconds (JVM running for 1.692)
+2022-11-06 22:20:18 [main] INFO  i.m.s.t.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-11-06 22:20:18 [main] INFO  i.m.s.t.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-11-06 22:24:42 [main] INFO  i.m.s.t.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 18.0.1.1 on DESKTOP-T9AVS21 with PID 160836 (D:\Code\EDA_microservices_kafka_solution_template\microservices-template\maven-to-kafka-service\target\classes started by farid in D:\Code\EDA_microservices_kafka_solution_template\microservices-template)
+2022-11-06 22:24:42 [main] INFO  i.m.s.t.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-06 22:24:42 [main] INFO  i.m.s.t.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.863 seconds (JVM running for 1.618)
+2022-11-06 22:24:42 [main] INFO  i.m.s.t.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-11-06 22:24:42 [main] INFO  i.m.s.t.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2022-11-06 22:24:42 [main] INFO  i.m.s.t.t.t.k.s.TwitterToKafkaServiceApplication - Hello Kafka

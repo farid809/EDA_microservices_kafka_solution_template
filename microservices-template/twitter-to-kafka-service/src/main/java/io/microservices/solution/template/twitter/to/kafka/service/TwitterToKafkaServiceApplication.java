@@ -1,7 +1,7 @@
 package io.microservices.solution.template.twitter.to.kafka.service;
 
 
-import io.microservices.solution.template.config.TwitterToKafkaServiceConfigData;
+
 import io.microservices.solution.template.twitter.to.kafka.service.init.StreamInitializer;
 import io.microservices.solution.template.twitter.to.kafka.service.runner.StreamRunner;
 import org.slf4j.LoggerFactory;
@@ -11,7 +11,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-import java.util.Arrays;
+
 
 @SpringBootApplication
 @ComponentScan(basePackages = "io.microservices.solution.template")

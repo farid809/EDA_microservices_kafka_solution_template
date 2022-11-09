@@ -11,10 +11,6 @@
 
     <artifactId>common-config</artifactId>
 
-    <properties>
-        <maven.compiler.source>18</maven.compiler.source>
-        <maven.compiler.target>18</maven.compiler.target>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>io.microservices.solution.template</groupId>
@@ -33,4 +29,5 @@
             <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
     </dependencies>
+
 </project>

@@ -9,13 +9,20 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-
     <artifactId>twitter-to-kafka-service</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>io.microservices.solution.template</groupId>
             <artifactId>app-config-data</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.microservices.solution.template</groupId>
+            <artifactId>kafka-admin</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.microservices.solution.template</groupId>
+            <artifactId>kafka-producer</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -38,8 +45,6 @@
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
         </dependency>
-
-
     </dependencies>
 
     <build>
@@ -50,9 +55,6 @@
             </plugin>
         </plugins>
     </build>
-    <properties>
-        <maven.compiler.source>18</maven.compiler.source>
-        <maven.compiler.target>18</maven.compiler.target>
-    </properties>
+
 
 </project>

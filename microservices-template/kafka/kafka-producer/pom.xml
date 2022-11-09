@@ -6,15 +6,12 @@
         <artifactId>microservices-template</artifactId>
         <groupId>io.microservices.solution.template</groupId>
         <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>kafka-producer</artifactId>
 
-    <properties>
-        <maven.compiler.source>18</maven.compiler.source>
-        <maven.compiler.target>18</maven.compiler.target>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>io.microservices.solution.template</groupId>
@@ -23,7 +20,6 @@
         <dependency>
             <groupId>io.microservices.solution.template</groupId>
             <artifactId>kafka-model</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.kafka</groupId>
@@ -33,9 +29,6 @@
             <groupId>io.confluent</groupId>
             <artifactId>kafka-avro-serializer</artifactId>
         </dependency>
-        <dependency>
-            <groupId>io.microservices.solution.template</groupId>
-            <artifactId>app-config-data</artifactId>
-        </dependency>
     </dependencies>
+
 </project>

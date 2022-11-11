@@ -8,10 +8,10 @@ spring:
           uri: https://github.com/farid809/spring-cloud-config-server-repository.git
           clone-on-start: true
           username: farid809@gmail.com
-          password: token
+          password: '{cipher}8dc5b64ef79219fd45c3ac3bc8987c93963de858900634815cf6225bc682731296de1ff0aeab3034e55bc61358d0d1853a65de4d7825d1c1ca59bc8ce2b071d8'
         default-label: main
       fail-fast: true
   security:
     user:
       name: spring_cloud_user
-      password: springCloud_Pwd!
+      password: '{cipher}be7dc22f35bcd535b3755e54218f223f3772815a794e69f4661ce3e0bd5c49d78980bfe10e695e67b33d51df16ec470f'

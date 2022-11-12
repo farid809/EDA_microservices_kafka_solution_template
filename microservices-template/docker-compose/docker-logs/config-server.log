@@ -1,0 +1,24 @@
+2022-11-12 04:29:39 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.5.Final
+2022-11-12 04:29:42 [main] INFO  i.m.s.t.config.server.ConfigServer - No active profile set, falling back to default profiles: default
+2022-11-12 04:29:45 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2a519873-3bf9-3410-9240-bed5bf7485b8
+2022-11-12 04:29:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2022-11-12 04:29:45 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2022-11-12 04:29:45 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-12 04:29:45 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2022-11-12 04:29:45 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-12 04:29:45 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2978 ms
+2022-11-12 04:29:46 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-11-12 04:29:50 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/actuator/**'], []
+2022-11-12 04:29:50 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/encrypt/**'], []
+2022-11-12 04:29:50 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/decrypt/**'], []
+2022-11-12 04:29:50 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@15d58530, org.springframework.security.web.context.SecurityContextPersistenceFilter@edbc2bf, org.springframework.security.web.header.HeaderWriterFilter@16fc5622, org.springframework.security.web.csrf.CsrfFilter@341ccfd1, org.springframework.security.web.authentication.logout.LogoutFilter@5891b7c5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@65ef9a0a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2faf6e4a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@31f5b923, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@537b3be1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62ab5e63, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c41a177, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@79e2606f, org.springframework.security.web.session.SessionManagementFilter@6906be0f, org.springframework.security.web.access.ExceptionTranslationFilter@e706aa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4ef8090b]
+2022-11-12 04:29:50 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-11-12 04:29:50 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2022-11-12 04:29:50 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2022-11-12 04:29:50 [main] INFO  i.m.s.t.config.server.ConfigServer - Started ConfigServer in 11.934 seconds (JVM running for 12.938)
+2022-11-12 04:29:58 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-12 04:29:58 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-11-12 04:29:58 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2022-11-12 04:30:02 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/tmp/config-repo-1075954392170894821/config-client-twitter_to_kafka.yml
+2022-11-12 04:30:02 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: file:/tmp/config-repo-1075954392170894821/config-client.yml
+2022-11-12 10:49:29 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
